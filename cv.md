@@ -43,3 +43,34 @@ To me, it’s not just about writing code — it’s about creating something me
 - Highlighting search text in results
 - Responsive slider adjustments for different screen sizes
 - Dynamic calculation of element dimensions
+
+## Education(Self Education):
+
+##### HTML/CSS(SASS)/JS(base)
+- https://www.cssportal.com/
+- https://www.w3schools.com/
+- youtube lessons
+
+#### JavaScript
+- youtube lessons
+- https://developer.mozilla.org/ru/
+- https://learn.javascript.ru/
+
+#### Vue
+- https://vuejs.org/
+
+#### Git / Figma / Vite
+- documentation
+- youtube lessons
+
+
+## Experience
+
+- [Nifter(JS)](https://alexnorwjap.github.io/Nifter)
+
+###	Languages
+
+-	Engllish A2
+
+
+>**Don’t be just a programmer, be a problem solver.**
