@@ -23,3 +23,23 @@ To me, it’s not just about writing code — it’s about creating something me
 - Git
 - Bundler: Vite
 - Figma
+
+## Code examples:
+
+[Nifter](https://github.com/alexnorwjap/Nifter/tree/main/src/assets/js)
+
+- Utilization of OOP principles and separation of functionality into classes (DropdownManager, SellerSlider, DataLoader, PageSearch)
+- Exporting functions and classes for use in other modules
+- Encapsulation of logic within classes
+- Asynchronous functions (async/await)
+- Working with Promise for parallel data loading
+- Arrow functions
+- Destructuring assignment
+- Using try/catch blocks for error handling in asynchronous operations
+- Logging error messages to the console
+- Providing user-friendly error feedback
+- Implementation of drag functionality in slider with corresponding visual indicators (cursor changes)
+- Dropdown menu with outside click handling
+- Highlighting search text in results
+- Responsive slider adjustments for different screen sizes
+- Dynamic calculation of element dimensions
