@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Portfolio</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="assets/rs.svg" >
+    <link rel="stylesheet" href="style.css" >
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css"
+      rel="stylesheet" >
+  </head>
+  <body>
+    <div class="wrapper">
+<header class="header burger--off">
+  <div class="header__container">
+    <div class="header__logo"><a href="#profile">Aleksandr D.</a></div>
+    <nav class="header__menu menu">
+      <ul class="menu__list">
+        <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+        <li class="menu__item"><a href="#tech-stack" class="menu__link">Tech Stack</a></li>
+        <li class="menu__item"><a href="#code-example" class="menu__link">Code examples</a></li>
+        <li class="menu__item"><a href="#experience" class="menu__link">Experience</a></li>
+        <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
+      </ul>
+      <button type="button" class="menu__icon">
+        <span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+      <ul class="menu__list-burger">
+        <li class="menu__item-burger">
+          <a href="#about" class="menu__link-burger">About</a>
+        </li>
+        <li class="menu__item-burger">
+          <a href="#tech-stack" class="menu__link-burger">Tech Stack</a>
+        </li>
+        <li class="menu__item-burger">
+          <a href="#code-example" class="menu__link-burger">Code examples</a>
+        </li>
+        <li class="menu__item-burger">
+          <a href="#experience" class="menu__link-burger">Experience</a>
+        </li>
+        <li class="menu__item-burger">
+          <a href="#contact" class="menu__link-burger">Contact</a>
+        </li>
+      </ul>
+      <main class="page">
+<section id="profile" class="page__profile profile">
+  <div class="profile__container">
+    <div class="profile__photo"><img src="assets/images/avatar.png" alt="Face" ></div>
+    <div class="profile__description">
+      <header class="profile__head head">
+        <div class="head__subtitle">Hello, I'm</div>
+        <h2 class="head__title">Aleksandr Denisov</h2>
+      </header>
+      <p class="profile__chapter chapter">Frontend Developer</p>
+      <div class="profile__button-wrap">
+        <a
+          href="https://alexnorwjap.github.io/rsschool-cv/cv"
+          target="_blank"
+          class="profile__button-download button"
+          >Look at CV</a
+        >
+        <a href="#contact" class="profile__button-hire button">Hire Me</a>
+      </div>
+      <ul class="profile__nav-social">
+        <li class="profile__nav-item">
+          <a href="#" class="profile__nav-link">
+            <svg
+              fill="currentColor"
+              height="32"
+              width="32"
+              version="1.1"
+              id="linkedin"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="-143 145 512 512"
+              xml:space="preserve">
+              <path
+                d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M41.4,508.1H-8.5V348.4h49.9
+              V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7
+              C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6
+              c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z
+              " />
+            </svg>
+          </a>
+        </li>
+        <li class="profile__nav-item">
+          <a href="#" class="profile__nav-link">
+            <svg
+              fill="currentColor"
+              id="github"
+              viewBox="0 0 24 24"
+              x="0px"
+              y="0px"
+              width="32"
+              height="32"
+              xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <path
+                  d="M12,0.296c-6.627,0-12,5.372-12,12c0,5.302,3.438,9.8,8.206,11.387   c0.6,0.111,0.82-0.26,0.82-0.577c0-0.286-0.011-1.231-0.016-2.234c-3.338,0.726-4.043-1.416-4.043-1.416   C4.421,18.069,3.635,17.7,3.635,17.7c-1.089-0.745,0.082-0.729,0.082-0.729c1.205,0.085,1.839,1.237,1.839,1.237   c1.07,1.834,2.807,1.304,3.492,0.997C9.156,18.429,9.467,17.9,9.81,17.6c-2.665-0.303-5.467-1.332-5.467-5.93   c0-1.31,0.469-2.381,1.237-3.221C5.455,8.146,5.044,6.926,5.696,5.273c0,0,1.008-0.322,3.301,1.23   C9.954,6.237,10.98,6.104,12,6.099c1.02,0.005,2.047,0.138,3.006,0.404c2.29-1.553,3.297-1.23,3.297-1.23   c0.653,1.653,0.242,2.873,0.118,3.176c0.769,0.84,1.235,1.911,1.235,3.221c0,4.609-2.807,5.624-5.479,5.921   c0.43,0.372,0.814,1.103,0.814,2.222c0,1.606-0.014,2.898-0.014,3.293c0,0.319,0.216,0.694,0.824,0.576   c4.766-1.589,8.2-6.085,8.2-11.385C24,5.669,18.627,0.296,12,0.296z" />
+                <path
+                  d="M4.545,17.526c-0.026,0.06-0.12,0.078-0.206,0.037c-0.087-0.039-0.136-0.121-0.108-0.18   c0.026-0.061,0.12-0.078,0.207-0.037C4.525,17.384,4.575,17.466,4.545,17.526L4.545,17.526z" />
+                <path
+                  d="M5.031,18.068c-0.057,0.053-0.169,0.028-0.245-0.055c-0.079-0.084-0.093-0.196-0.035-0.249   c0.059-0.053,0.167-0.028,0.246,0.056C5.076,17.903,5.091,18.014,5.031,18.068L5.031,18.068z" />
+                <path
+                  d="M5.504,18.759c-0.074,0.051-0.194,0.003-0.268-0.103c-0.074-0.107-0.074-0.235,0.002-0.286   c0.074-0.051,0.193-0.005,0.268,0.101C5.579,18.579,5.579,18.707,5.504,18.759L5.504,18.759z" />
+                <path
+                  d="M6.152,19.427c-0.066,0.073-0.206,0.053-0.308-0.046c-0.105-0.097-0.134-0.234-0.068-0.307   c0.067-0.073,0.208-0.052,0.311,0.046C6.191,19.217,6.222,19.355,6.152,19.427L6.152,19.427z" />
+                <path
+                  d="M7.047,19.814c-0.029,0.094-0.164,0.137-0.3,0.097C6.611,19.87,6.522,19.76,6.55,19.665   c0.028-0.095,0.164-0.139,0.301-0.096C6.986,19.609,7.075,19.719,7.047,19.814L7.047,19.814z" />
+                <path
+                  d="M8.029,19.886c0.003,0.099-0.112,0.181-0.255,0.183c-0.143,0.003-0.26-0.077-0.261-0.174c0-0.1,0.113-0.181,0.256-0.184   C7.912,19.708,8.029,19.788,8.029,19.886L8.029,19.886z" />
+                <path
+                  d="M8.943,19.731c0.017,0.096-0.082,0.196-0.224,0.222c-0.139,0.026-0.268-0.034-0.286-0.13   c-0.017-0.099,0.084-0.198,0.223-0.224C8.797,19.574,8.925,19.632,8.943,19.731L8.943,19.731z" />
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li class="profile__nav-item">
+          <a href="#" class="profile__nav-link"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              version="1.1"
+              id="telegram"
+              x="0px"
+              y="0px"
+              viewBox="0 0 24 24"
+              style="enable-background: new 0 0 24 24"
+              xml:space="preserve"
+              width="32"
+              height="32"
+              fill="currentColor">
+              <g id="Artboard">
+                <path
+                  style="fill-rule: evenodd; clip-rule: evenodd"
+                  d="M12,0C5.373,0,0,5.373,0,12s5.373,12,12,12s12-5.373,12-12S18.627,0,12,0z    M17.562,8.161c-0.18,1.897-0.962,6.502-1.359,8.627c-0.168,0.9-0.5,1.201-0.82,1.23c-0.697,0.064-1.226-0.461-1.901-0.903   c-1.056-0.692-1.653-1.123-2.678-1.799c-1.185-0.781-0.417-1.21,0.258-1.911c0.177-0.184,3.247-2.977,3.307-3.23   c0.007-0.032,0.015-0.15-0.056-0.212s-0.174-0.041-0.248-0.024c-0.106,0.024-1.793,1.139-5.062,3.345   c-0.479,0.329-0.913,0.489-1.302,0.481c-0.428-0.009-1.252-0.242-1.865-0.442c-0.751-0.244-1.349-0.374-1.297-0.788   c0.027-0.216,0.324-0.437,0.892-0.663c3.498-1.524,5.831-2.529,6.998-3.015c3.333-1.386,4.025-1.627,4.477-1.635   C17.472,7.214,17.608,7.681,17.562,8.161z" />
+              </g>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section id="about" class="page__about about">
+  <div class="about__container">
+    <header class="about__head head">
+      <div class="head__subtitle">Get To Know More</div>
+      <h2 class="head__title">About Me</h2>
+    </header>
+    <div class="about__content">
+      <div class="about__text">
+        <p>
+          I’m interested in programming because I’ve seen how many incredible things can be built
+          with it. To me, it’s not just about writing code — it’s about creating something
+          meaningful that solves real problems.
+        </p>
+        <p>
+          I aim to be an innovative creator who focuses on solving real-world challenges.
+          Programming is a powerful tool for bringing valuable ideas to life.
+        </p>
+        <div class="about__text-footer">
+          <h3 class="about__title">Languages:</h3>
+          <p>Engllish A2</p>
+        </div>
+      </div>
+
+      <h3 class="about__title-experience">Education(Self Education)</h3>
+      <div class="about__description">
+        <div class="about__experience">
+          <div class="about__icon"><img src="assets/icons/experience.png" alt="Experience" ></div>
+          <h3 class="about__title">HTML SCSS JavaScript(base)</h3>
+          <ul class="about__subtitle">
+            <li>
+              <a href="https://www.cssportal.com/" target="_blank">https://www.cssportal.com</a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com</a>
+            </li>
+            <li><p>youtube lessons</p></li>
+          </ul>
+        </div>
+        <div class="about__experience">
+          <div class="about__icon"><img src="assets/icons/experience.png" alt="Experience" ></div>
+          <h3 class="about__title">JavaScript</h3>
+          <ul class="about__subtitle">
+            <li>
+              <a href="https://developer.mozilla.org/ru/" target="_blank"
+                >https://developer.mozilla.org/ru</a
+              >
+            </li>
+            <li>
+              <a href="https://learn.javascript.ru/" target="_blank">https://learn.javascript.ru</a>
+            </li>
+            <li><p>youtube lessons</p></li>
+          </ul>
+        </div>
+        <div class="about__experience">
+          <div class="about__icon"><img src="assets/icons/experience.png" alt="Experience" ></div>
+          <h3 class="about__title">Vue Git Figma Vite</h3>
+          <ul class="about__subtitle">
+            <li>
+              <a href="https://vuejs.org/" target="_blank">https://vuejs.org</a>
+            </li>
+            <li><p>documentation</p></li>
+            <li><p>youtube lessons</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="tech-stack" class="page__experience experience">
+  <div class="experience__container">
+    <header class="experience__head head">
+      <div class="head__subtitle">Explore My</div>
+      <h2 class="head__title">Tech Stack</h2>
+    </header>
+    <div class="experience__content">
+      <h3 class="experience__title">Frontend Development</h3>
+      <ul class="experience__list">
+        <li class="experience__check-item item-check">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="item-check__icon"
+            id="icon"
+            viewBox="0 0 24 24">
+            <g>
+              <path
+                d="M22.51,13.76a3,3,0,0,1,0-3.52l.76-1.05a1,1,0,0,0,.14-.9,1.018,1.018,0,0,0-.64-.64l-1.23-.4A2.987,2.987,0,0,1,19.47,4.4V3.1a1,1,0,0,0-1.31-.95l-1.24.4a3,3,0,0,1-3.35-1.09L12.81.41a1.036,1.036,0,0,0-1.62,0l-.76,1.05A3,3,0,0,1,7.08,2.55l-1.24-.4a1,1,0,0,0-1.31.95V4.4A2.987,2.987,0,0,1,2.46,7.25l-1.23.4a1.018,1.018,0,0,0-.64.64,1,1,0,0,0,.14.9l.76,1.05a3,3,0,0,1,0,3.52L.73,14.81a1,1,0,0,0-.14.9,1.018,1.018,0,0,0,.64.64l1.23.4A2.987,2.987,0,0,1,4.53,19.6v1.3a1,1,0,0,0,1.31.95l1.23-.4a2.994,2.994,0,0,1,3.36,1.09l.76,1.05a1.005,1.005,0,0,0,1.62,0l.76-1.05a3,3,0,0,1,3.36-1.09l1.23.4a1,1,0,0,0,1.31-.95V19.6a2.987,2.987,0,0,1,2.07-2.85l1.23-.4a1.018,1.018,0,0,0,.64-.64,1,1,0,0,0-.14-.9Zm-5.8-3.053-5,5a1,1,0,0,1-1.414,0l-3-3a1,1,0,1,1,1.414-1.414L11,13.586l4.293-4.293a1,1,0,0,1,1.414,1.414Z" />
+            </g>
+          </svg>
+          <h3 class="item-check__title">HTML</h3>
+          <p class="item-check__text">Intermediate</p>
+        </li>
+        <li class="experience__check-item item-check">
+          <svg class="item-check__icon"><use href="#icon"></use></svg>
+          <h3 class="item-check__title">CSS/SASS</h3>
+          <p class="item-check__text">Intermediate</p>
+        </li>
+        <li class="experience__check-item item-check">
+          <svg class="item-check__icon"><use href="#icon"></use></svg>
+          <h3 class="item-check__title">JavaScript</h3>
+          <p class="item-check__text">Basic-Intermediate</p>
+        </li>
+        <li class="experience__check-item item-check">
+          <svg class="item-check__icon"><use href="#icon"></use></svg>
+          <h3 class="item-check__title">Vue</h3>
+          <p class="item-check__text">Basic-Intermediate</p>
+        </li>
+        <li class="experience__check-item item-check">
+          <svg class="item-check__icon"><use href="#icon"></use></svg>
+          <h3 class="item-check__title">Git</h3>
+          <p class="item-check__text">Basic</p>
+        </li>
+        <li class="experience__check-item item-check">
+          <svg class="item-check__icon"><use href="#icon"></use></svg>
+          <h3 class="item-check__title">Vite</h3>
+          <p class="item-check__text">Basic</p>
+        </li>
+        <li class="experience__check-item item-check">
+          <svg class="item-check__icon"><use href="#icon"></use></svg>
+          <h3 class="item-check__title">Figma</h3>
+          <p class="item-check__text">Basic</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section id="code-example" class="page__code-example code-example">
+  <div class="code-example__container">
+    <header class="code-example__head head">
+      <div class="head__subtitle">Explore My</div>
+      <h2 class="head__title">Code examples</h2>
+    </header>
+    <div class="code-example__content">
+      <ul class="code-example__list">
+        <li>
+          Utilization of OOP principles and separation of functionality into classes
+          (DropdownManager, SellerSlider, DataLoader, PageSearch)
+        </li>
+        <li>Exporting functions and classes for use in other modules</li>
+        <li>Encapsulation of logic within classes</li>
+        <li>Asynchronous functions (async/await)</li>
+        <li>Working with Promise for parallel data loading</li>
+        <li>Arrow functions</li>
+        <li>Destructuring assignment</li>
+        <li>Using try/catch blocks for error handling in asynchronous operations</li>
+        <li>Logging error messages to the console</li>
+        <li>Providing user-friendly error feedback</li>
+        <li>
+          Implementation of drag functionality in slider with corresponding visual indicators
+          (cursor changes)
+        </li>
+        <li>Dropdown menu with outside click handling</li>
+        <li>Highlighting search text in results</li>
+        <li>Responsive slider adjustments for different screen sizes</li>
+        <li>Dynamic calculation of element dimensions</li>
+      </ul>
+      <pre><code class="language-javascript">
+export class AnimateCounter {
+  constructor(target, endValue, duration) {
+    this.startTime = performance.now();
+    this.counterElement = target;
+    this.endValue = endValue;
+    this.duration = duration;
+    this.startAnimation();
+  }
+
+  formatNumber(value) {
+    if (value >= 10000) {
+      const kValue = Math.floor(value / 1000);
+      const remainder = value % 10000;
+      return `${kValue}k${remainder > 0 ? '+' : ''}`;
+    }
+    return value;
+  }
+
+  update(currentTime) {
+    const progress = Math.min((currentTime - this.startTime) / this.duration, 1);
+    const currentValue = this.formatNumber(Math.floor(this.endValue * progress));
+
+    this.counterElement.textContent = currentValue;
+    if (progress &lt; 1) {
+      requestAnimationFrame((time) => this.update(time));
+    }
+  }
+
+  startAnimation() {
+    requestAnimationFrame((time) => this.update(time));
+  }
+}
+    </code></pre>
+    </div>
+  </div>
+</section>
+<section id="experience" class="page__projects projects">
+  <div class="projects__container">
+    <header class="projects__head head">
+      <div class="head__subtitle">Browse My Recent</div>
+      <h2 class="head__title">Experience</h2>
+    </header>
+    <div class="projects__content">
+      <article class="projects__item">
+        <h2 class="projects__title">Nifter</h2>
+        <ul class="projects__list">
+          <li>
+            <a
+              href="https://github.com/alexnorwjap/Nifter"
+              target="_blank"
+              class="projects__link button"
+              >Github</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://alexnorwjap.github.io/Nifter/"
+              target="_blank"
+              class="projects__link button"
+              >Live Demo</a
+            >
+          </li>
+        </ul>
+        <div class="projects__img">
+          <img src="assets/images/Nifter.PNG" alt="Nifter" >
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+      </main>
+      <footer class="footer">
+<section id="contact" class="page__contact contact">
+  <div class="contact__container">
+    <div class="contact__head head">
+      <div class="head__subtitle">Get in Touch</div>
+      <h2 class="head__title">Contact Me</h2>
+    </div>
+    <ul class="contact__content">
+      <li class="contact__mail">
+        <a class="contact__link" target="_blank" href="mailto:alex.norw.jap@gmail.com">
+          <svg
+            height="32"
+            viewBox="0 0 512.000000 512.000000"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg">
+            <g
+              fill="#000000"
+              stroke="none"
+              transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)">
+              <path
+                d="M2285 4898 c-311 -35 -683 -165 -955 -333 -220 -137 -472 -361 -622 -555 -256 -331 -417 -712 -480 -1135 -20 -136 -17 -512 5 -655 103 -665 471 -1245 1027 -1616 287 -191 623 -320 966 -371 164 -24 504 -24 668 0 411 61 815 237 1136 494 459 368 764 897 857 1485 25 159 25 537 0 696 -83 524 -329 995 -708 1356 -370 352 -861 581 -1361 635 -114 13 -419 12 -533 -1z m1785 -1197 c0 -5 -18 -24 -39 -43 -78 -66 -641 -585 -676 -622 -18 -19 -322 -302 -567 -527 -117 -108 -167 -139 -226 -139 -78 0 -81 2 -496 384 -83 76 -191 178 -241 225 -161 155 -647 603 -736 679 -21 19 -39 38 -39 43 0 5 601 9 1510 9 909 0 1510 -4 1510 -9z m-2690 -543 c151 -138 331 -305 400 -370 l124 -118 -39 -39 c-22 -21 -218 -202 -435 -401 -217 -200 -431 -398 -475 -440 -44 -43 -99 -94 -122 -115 l-43 -37 0 971 c0 994 0 990 38 1033 14 16 24 8 146 -107 72 -68 255 -238 406 -377z m2932 451 c17 -32 18 -100 18 -1003 l0 -968 -64 58 c-146 134 -906 843 -971 906 l-70 69 96 92 c52 51 239 223 414 382 176 160 369 338 430 397 60 59 115 106 120 105 6 -2 18 -19 27 -38z m-2117 -1200 c201 -188 230 -204 370 -204 143 0 171 15 367 199 87 81 162 146 167 144 6 -1 79 -69 163 -149 84 -80 284 -266 443 -413 427 -394 560 -520 560 -531 0 -5 -16 -18 -35 -28 -33 -16 -129 -17 -1680 -15 -1632 3 -1645 3 -1677 23 l-32 20 157 147 c86 80 310 288 497 461 187 174 383 356 435 406 52 49 97 90 100 90 3 0 77 -67 165 -150z" />
+            </g>
+          </svg>
+          @gmail.com
+        </a>
+      </li>
+      <li class="contact__linkedin">
+        <a class="contact__link" target="_blank" href="#">
+          <svg><use href="#linkedin"></use></svg>@linkedin
+        </a>
+      </li>
+      <li class="contact__github">
+        <a class="contact__link" target="_blank" href="https://github.com/alexnorwjap"
+          ><svg><use href="#github"></use></svg>@github
+        </a>
+      </li>
+      <li class="contact__telegram">
+        <a class="contact__link" target="_blank" href="https://t.me/Norw_Jap_Can"
+          ><svg><use href="#telegram"></use></svg>@telegram
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+        <div class="footer__container">
+          <p class="footer__phrase">
+            Don’t be just a programmer, <br>
+            be a problem solver!
+          </p>
+          <p class="footer__copyright">Copyright © 2025</p>
+          <a class="footer__link-rs" href="https://rs.school/courses/javascript" target="_blank"
+            ><img src="assets/rs.svg" alt="Rs-icon"></a>
+        </div>
+      </footer>
+    </div>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+  </body>
+</html>
