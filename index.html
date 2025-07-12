@@ -1,16 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <title>Portfolio</title>
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" >
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <link rel="icon" type="image/svg+xml" href="assets/rs.svg" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" >
+    <link rel="icon" type="image/svg+xml" href="assets/rs.svg" >
+    <link rel="stylesheet" href="style.css" >
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css"
-      rel="stylesheet" />
+      rel="stylesheet" >
   </head>
   <body>
     <div class="wrapper">
@@ -51,7 +51,7 @@
       <main class="page">
 <section id="profile" class="page__profile profile">
   <div class="profile__container">
-    <div class="profile__photo"><img src="assets/images/avatar.png" alt="Face" /></div>
+    <div class="profile__photo"><img src="assets/images/avatar.png" alt="Face" ></div>
     <div class="profile__description">
       <header class="profile__head head">
         <div class="head__subtitle">Hello, I'm</div>
@@ -65,7 +65,7 @@
           class="profile__button-download button"
           >Look at CV</a
         >
-        <a href="#contact" target="_blank" class="profile__button-hire button">Hire Me</a>
+        <a href="#contact" class="profile__button-hire button">Hire Me</a>
       </div>
       <ul class="profile__nav-social">
         <li class="profile__nav-item">
@@ -174,7 +174,7 @@
       <h3 class="about__title-experience">Education(Self Education)</h3>
       <div class="about__description">
         <div class="about__experience">
-          <div class="about__icon"><img src="assets/icons/experience.png" alt="Experience" /></div>
+          <div class="about__icon"><img src="assets/icons/experience.png" alt="Experience" ></div>
           <h3 class="about__title">HTML SCSS JavaScript(base)</h3>
           <ul class="about__subtitle">
             <li>
@@ -187,7 +187,7 @@
           </ul>
         </div>
         <div class="about__experience">
-          <div class="about__icon"><img src="assets/icons/experience.png" alt="Experience" /></div>
+          <div class="about__icon"><img src="assets/icons/experience.png" alt="Experience" ></div>
           <h3 class="about__title">JavaScript</h3>
           <ul class="about__subtitle">
             <li>
@@ -202,7 +202,7 @@
           </ul>
         </div>
         <div class="about__experience">
-          <div class="about__icon"><img src="assets/icons/experience.png" alt="Experience" /></div>
+          <div class="about__icon"><img src="assets/icons/experience.png" alt="Experience" ></div>
           <h3 class="about__title">Vue Git Figma Vite</h3>
           <ul class="about__subtitle">
             <li>
@@ -327,7 +327,7 @@ export class AnimateCounter {
     const currentValue = this.formatNumber(Math.floor(this.endValue * progress));
 
     this.counterElement.textContent = currentValue;
-    if (progress < 1) {
+    if (progress &lt; 1) {
       requestAnimationFrame((time) => this.update(time));
     }
   }
@@ -368,7 +368,7 @@ export class AnimateCounter {
           </li>
         </ul>
         <div class="projects__img">
-          <img src="assets/images/nifter.png" alt="Nifter" />
+          <img src="assets/images/Nifter.png" alt="Nifter" >
         </div>
       </article>
     </div>
@@ -378,16 +378,15 @@ export class AnimateCounter {
       <footer class="footer">
 <section id="contact" class="page__contact contact">
   <div class="contact__container">
-    <header class="contact__head head">
+    <div class="contact__head head">
       <div class="head__subtitle">Get in Touch</div>
       <h2 class="head__title">Contact Me</h2>
-    </header>
+    </div>
     <ul class="contact__content">
       <li class="contact__mail">
         <a class="contact__link" target="_blank" href="mailto:alex.norw.jap@gmail.com">
           <svg
             height="32"
-            version="1.0"
             viewBox="0 0 512.000000 512.000000"
             width="32"
             xmlns="http://www.w3.org/2000/svg">
@@ -422,13 +421,12 @@ export class AnimateCounter {
 </section>
         <div class="footer__container">
           <p class="footer__phrase">
-            Don’t be just a programmer, <br />
+            Don’t be just a programmer, <br>
             be a problem solver!
           </p>
           <p class="footer__copyright">Copyright © 2025</p>
           <a class="footer__link-rs" href="https://rs.school/courses/javascript" target="_blank"
-            ><img src="assets/rs.svg" alt="Rs-icon"
-          /></a>
+            ><img src="assets/rs.svg" alt="Rs-icon"></a>
         </div>
       </footer>
     </div>
